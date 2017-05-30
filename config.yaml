@@ -12,7 +12,7 @@ variables:
     AUDIT_AWS_CLOUDWATCH_SEND_ON:
         description: "Send reports always or only when there is a change? Options - always / change. Default is change."
         required: true
-        type: string;;;
+        type string;;;
         default: "change"
     AUDIT_AWS_CLOUDWATCH_ALERT_RECIPIENT:
         description: "Enter the email address(es) that will receive notifications. If more than one, separate each with a comma."
@@ -43,3 +43,4 @@ variables:
         required: false
         type: string
         default: "NOT_A_TAG"
+asd
